@@ -1,0 +1,11 @@
+[package]
+name = "rusoto-1055"
+version = "0.1.0"
+authors = ["Peter Gerber <peter@arbitrary.ch>"]
+
+[dependencies]
+env_logger = "0.5"
+rusoto_core = "0.32"
+rusoto_s3 = "0.32"
+rusoto_credential = "0.11"
+tokio-core = "0.1"
